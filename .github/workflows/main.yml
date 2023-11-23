@@ -2,9 +2,9 @@ name: Java CI with Maven and Docker
  
 on:
   push:
-    branches: ["master"]
+    branches: ["reaabourached-patch-1"]
   pull_request:
-    branches: ["master"]
+    branches: ["reaabourached-patch-1"]
  
 jobs:
   build:
