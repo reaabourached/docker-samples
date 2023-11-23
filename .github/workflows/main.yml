@@ -35,6 +35,6 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v3
       with:
-        context: simple-spring-boot-rest-api
+        context: .
         push: true
-        tags: <rheaar>/my-spring-boot-app:${{ env.DATE }}
+        tags: <username>/my-spring-boot-app:${{ env.DATE }}
